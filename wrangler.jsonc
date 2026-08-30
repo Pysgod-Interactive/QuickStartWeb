@@ -6,5 +6,11 @@
     "directory": "./dist",
     "binding": "ASSETS"
   },
-  "main": "./dist/_worker.js/index.js"
+  "main": "./dist/_worker.js/index.js",
+  // Same Flagship apps epictoolsonline.com uses for its kill switches.
+  // full-kill-switch takes everything down, eto-quickstart-kill just this site.
+  "flagship": [
+    { "binding": "KILL_FULL", "app_id": "a14d882e-6c4d-48d5-b7b0-fc11a64fcae7" },
+    { "binding": "KILL_SCOPED", "app_id": "ad0c26a4-4a01-40ed-9400-db491845cb68" }
+  ]
 }
