@@ -1,4 +1,4 @@
-# QuickStart Web
+## QuickStart Web
 
 The website for [QuickStart](https://github.com/EpicToolsOnline/QuickStart), an open source, Ninite-style batch installer for Windows. Lives at [quickstart.epictoolsonline.com](https://quickstart.epictoolsonline.com).
 
