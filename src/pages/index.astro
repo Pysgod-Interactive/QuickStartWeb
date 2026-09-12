@@ -139,6 +139,9 @@ const categories = [
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body>
+    <div class="closing-notice" role="alert">
+      Epic Tools Online and all related services will close on July 4, 2027. Every service will be shut down as of that date. Until then, everything will keep working as normal.
+    </div>
     <div class="top-bar">
       <Logo />
       <p class="powered-by">Powered by <a href="https://epictoolsonline.com" class="brand">EpicToolsOnline</a></p>
@@ -208,6 +211,17 @@ const categories = [
 </html>
 
 <style>
+  .closing-notice {
+    background: var(--color-danger);
+    color: var(--color-bg);
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: var(--space-3) var(--space-4);
+  }
+
   .top-bar {
     max-width: var(--max-width);
     margin: 0 auto;
